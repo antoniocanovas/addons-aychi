@@ -2,7 +2,7 @@
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl)
 
 {
-    "name": "POS Custom Aychi",
+    "name": "POS Custom Aychi Skit",
     "summary": "Add button to set priority to orders.",
     "author": "Pedro Guirao, Odoo Community Association (OCA)",
     "website": "https://github.com/OCA/pos",

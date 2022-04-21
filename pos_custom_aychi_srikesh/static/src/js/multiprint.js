@@ -1,4 +1,4 @@
-odoo.define('pos_custom_aychi.multiprint', function (require) {
+odoo.define('pos_custom_aychi_srikesh.multiprint', function (require) {
 "use strict";
 
 var multi = require('pos_order_priority.multiprint');

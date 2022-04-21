@@ -7,7 +7,7 @@
 
     <template id="pos_custom_aychi" inherit_id="point_of_sale.assets" name="customer count">
         <xpath expr="." position="inside">
-            <script type="text/javascript" src="/pos_custom_aychi/static/src/js/multiprint.js"/>
+            <script type="text/javascript" src="/pos_custom_aychi_srikesh/static/src/js/multiprint.js"/>
         </xpath>
     </template>
 
