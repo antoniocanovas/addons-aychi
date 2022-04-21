@@ -1,0 +1,6 @@
+
+.multiprint-flex {
+    display: flex;
+    justify-content: space-between;
+    font-size: 35px;
+}

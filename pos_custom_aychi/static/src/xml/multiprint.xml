@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+
+    <t t-name="OrderChangeReceipt" t-inherit="pos_restaurant.OrderChangeReceipt" t-inherit-mode="extension">
+        <xpath expr="//t[@t-if='changes.floor || changes.table']" position="replace">
+               <t t-if="changes.floor || changes.table">
+                <br />
+                   <div class="pos-receipt-title">
+                    <t t-esc="changes.floor" /> / <t t-esc="changes.table"/> <br />
+                    Comensales :  <t t-esc="changes.customer_count"/>
+                </div>
+            </t>
+        </xpath>
+    </t>
+
+</templates>
