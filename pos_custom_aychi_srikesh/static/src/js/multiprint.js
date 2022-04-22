@@ -1,7 +1,7 @@
 odoo.define('pos_custom_aychi_srikesh.multiprint', function (require) {
 "use strict";
 
-var multi = require('pos_order_priority.multiprint');
+var multi = require('pos_line_priority_srikesh.multiprint');
 var core = require('web.core');
 var models = require('point_of_sale.models');
 var Printer = require('point_of_sale.Printer').Printer;
