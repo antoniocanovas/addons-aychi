@@ -11,14 +11,14 @@
     "version": "14.0.1.0.0",
     "license": "LGPL-3",
     "depends": ["pos_restaurant",
-                #"pos_line_priority_srikesh"
+                "pos_line_priority_srikesh"
                 ],
     "data": [
         'views/pos_custom_templates.xml',
-        #'views/assets.xml',
-        #'views/pos_session.xml',
+        'views/assets.xml',
+        'views/pos_session.xml',
              ],
     "qweb": [
-        #"static/src/xml/multiprint.xml",
+        "static/src/xml/multiprint.xml",
              ],
 }
