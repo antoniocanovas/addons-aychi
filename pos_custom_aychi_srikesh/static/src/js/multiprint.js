@@ -13,6 +13,8 @@ models.Order = models.Order.extend({
     computeChanges: function(categories){
         var order = _super_order.computeChanges.call(this,categories)
         var json        = this.export_as_JSON();
+        console.log("DEBUG CUSTOMERS");
+        console.log(json.customer_count);
         order['customer_count'] = json.customer_count;
         return order
     },
